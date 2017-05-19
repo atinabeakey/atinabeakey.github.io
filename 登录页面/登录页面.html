@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>登录</title>
+		<link rel="shortcut icon" href="../首页/img/bitbug_favicon.ico" />
+		<link rel="stylesheet" href="../common/css/public.css" />
+		<link rel="stylesheet" type="text/css" href="css/login.css" />
+		<script src="../jquery-1.11.0.js"></script>
+		<script src="../保暖/js/jquery.cookie.js"></script>
+		<script src="js/login.js"></script>
+	</head>
+	<body>
+<!--====================================登录页面=====================================-->		
+		<div class="Loginslide">
+			<div class="doorCont">
+				<h1>
+					<img src="img/logo.png"/>
+				</h1>
+				<div class="quick-login">
+					<!--<span class="login-close"></span>-->
+					<dl class="other-log">
+						<dt>
+							<h3>无需注册</h3>
+							<p>直接使用社交账号登录</p>
+						</dt>
+						<dd>
+							<a class="sina" href="javascript:;">微博</a>
+						</dd>
+						<dd>
+							<a class="qq" href="javascript:;">QQ</a>
+						</dd>
+						<dd>
+							<a class="alipay" href="javascript:;">支付宝</a>
+						</dd>
+					</dl>
+					<div class="userlogin">
+						<from id="login_form" method="post">
+							<dl>
+								<dt>用户登录</dt>
+								<dd class="user_dd">
+									<span style="display:block;">邮箱</span>
+									<input class="login_username com" type="text" value=""/>
+									<p>
+										<label class="error e1" for="login_username" style="display：inline">
+											<!--邮箱/用户名不能为空-->
+										</label>
+									</p>
+								</dd>
+								<dd class="pass_dd">
+									<span style="display:block;">密码</span>
+									<input class="login_pass com" type="password" value=""/>
+									<p>
+										<label class="error e2" for="login_username" style="display：inline">
+											<!--密码长度须介于6和20之间-->
+										</label>
+									</p>
+								</dd>
+							</dl>
+							<p class="enter_up">
+								<span class="autologin">下次自动登录</span>
+							</p>
+							<div class="enter">
+								<input id="login_submit" class="smt" value="立即登录" type="button"/>
+							</div>
+							<h2>
+								<a class="fr" href="javascript:;">忘记密码</a>
+								还没账号？
+								<a class="toregister" href="javascript:;">注册</a>
+							</h2>
+						</from>
+					</div>
+				</div>
+			</div>
+		</div>
+		<h6>
+			Copyright &copy; 2006-2014 kadang.com 网上经营许可证号： 浙B2-20140435
+		</h6>
+	</body>
+</html>

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>购物车</title>
+		<link rel="shortcut icon" href="../首页/img/bitbug_favicon.ico" />
+		<link rel="stylesheet" href="../common/css/public.css" />
+		<link rel="stylesheet" href="css/shopping.css" />
+		<script type="text/javascript" src="../jquery-1.11.0.js" ></script>
+		<script type="text/javascript" src="js/jquery.cookie.js"></script>
+		<script type="text/javascript" src="js/cart.js"></script>
+ 	</head>
+	<body>
+		<div class="shopping">
+			<div class="header">
+				<h1>
+					<img src="img/logo.png"/>
+				</h1>
+				<h2></h2>
+			</div>
+<!--=============================================购物车内容=======================================================-->			
+			<div class="partshop"	class="part-shopping">
+				<div class="noGoods" style="display: block;">
+	        		<h6>购物车暂没有商品<br/>
+	        			去 <a href="###" <!--target="_blank-->">挑选自己喜欢的商品 </a>
+	        		</h6>
+	        	</div>
+				<div class="hasGoods" style="display: none;">
+					<table class="cart-table">
+						<thead class="cart-head">
+							<tr>
+								<th class="w60"> 
+									<label class="check-all">
+										<input type="checkbox" id="checkbox" checked="checked"/>全选
+									</label>
+								</th>
+								<th colspan="2">商品信息</th>
+								<th class="w120">单价（元）</th>
+								<th>数量</th>
+								<th class="w120">总计（元）</th>
+								<th class="w120">操作</th>
+							</tr>
+						</thead>
+						<tbody class="wrap-store">
+							<!--<tr class="tr1">
+								<th>
+									<input type="checkbox" checked="checked"/>
+								</th>
+								<th class="mod-name" colspan="6">
+									店铺：
+									<a href="javascript:;">卡当自营店</a>
+									<span class="airline">
+										<i></i>
+										联系客服
+									</span>
+								</th>
+							</tr>
+							<tr class="goods-item">
+								<td class="td1">
+									<input type="checkbox" checked="checked" />
+								</td>
+								<td class="w70">
+									<img src="img/7.jpg" />
+								</td>
+								<td class="w190">
+									用心来爱你 天然托帕石925纯银项链
+								</td>
+								<td class="money">
+									199.00
+								</td>
+								<td class="mod-quaity">
+									<div >
+										<a class="minus" href="javascript:;">-</a>
+										<input type="text" class="quantity" value="1"/>
+										<a class="plus" href="javascript:;">+</a>
+									</div>
+								</td>
+								<td class="mod-price">199.00</td>
+								<td class="dele" >
+									<a href="javascript:;">删除</a>
+								</td>
+							</tr>-->
+							<!--<tr class="goods-item">
+								<td class="td1">
+									<input type="checkbox"  />
+								</td>
+								<td class="w70">
+									<img src="img/7.jpg" />
+								</td>
+								<td class="w190">
+									用心来爱你 天然托帕石925纯银项链
+								</td>
+								<td class="money">
+									199.00
+								</td>
+								<td class="mod-quaity">
+									<div >
+										<a class="minus" href="javascript:;">-</a>
+										<input type="text" class="quantity" value="1"/>
+										<a class="plus" href="javascript:;">+</a>
+									</div>
+								</td>
+								<td class="mod-price">199.00</td>
+								<td class="dele" >
+									<a href="javascript:;">删除</a>
+								</td>
+							</tr>-->
+						</tbody>
+					</table>
+					<div class="t-right">
+						<label>
+							<input type="checkbox"  />货到付款
+							<span>
+								商品金额（不含运费和优惠）:
+								<i><span class="mon-span">￥</span><strong id="total">0.00</strong></i>
+							</span>
+						</label>
+						<div>
+							<a class="goon" href="javascript:;">继续购物</a>
+							<a class="jiesuan" href="javascript:;">去结算</a>
+						</div>
+					</div>
+				</div>				
+				<h3>猜你喜欢</h3>
+				<ul class="other">
+					<li>
+						<p class="img">
+							<img src="img/1.jpg" />
+						</p>
+						<h4>真爱永久 24K金箔玫瑰花 升级款带香味 送女友表白礼物</h4>
+						<h5>￥159.00</h5>
+					</li>
+					<li>
+						<p class="img">
+							<img src="img/2.jpg" />
+						</p>
+						<h4>真爱永久 24K金箔玫瑰花 升级款带香味 送女友表白礼物</h4>
+						<h5>￥159.00</h5>
+					</li>
+					<li>
+						<p class="img">
+							<img src="img/3.jpg" />
+						</p>
+						<h4>真爱永久 24K金箔玫瑰花 升级款带香味 送女友表白礼物</h4>
+						<h5>￥159.00</h5>
+					</li>
+					<li>
+						<p class="img">
+							<img src="img/4.jpg" />
+						</p>
+						<h4>真爱永久 24K金箔玫瑰花 升级款带香味 送女友表白礼物</h4>
+						<h5>￥159.00</h5>
+					</li>
+					<li>
+						<p class="img">
+							<img src="img/5.jpg" />
+						</p>
+						<h4>真爱永久 24K金箔玫瑰花 升级款带香味 送女友表白礼物</h4>
+						<h5>￥159.00</h5>
+					</li>
+					<li>
+						<p class="img">
+							<img src="img/6.jpg" />
+						</p>
+						<h4>真爱永久 24K金箔玫瑰花 升级款带香味 送女友表白礼物</h4>
+						<h5>￥159.00</h5>
+					</li>
+				</ul>
+			</div>
+			<p class="banquan">
+				Copyright &copy; 2006-2014 kadang.com 网上经营许可证号： 浙B2-20140435
+			</p>
+		</div>
+<!--***********************************************fast-nav*************************************************-->		
+		<div class="fast_nav">
+			<ul>
+				<li>
+					<p class="fast-a fast-p ">
+						<i class="wenwo"></i>
+						<span>送礼<br />问我</span>
+					</p>
+				</li>
+				<li>
+					<a class="fast-a" href="javascript:;">我的<br />收藏</a>
+				</li>
+				<li>
+					<a class="fast-a" href="javascript:;">我有<br />话说</a>
+				</li>
+				<li id="hideWx">
+					<a class="fast-a" href="javascript:;">
+						<i class="weixin"></i>
+						<div class="bot-hide" style="display: none;"></div>
+					</a>
+				</li>
+				<li id="fast_li" style="opacity: 0;">
+					<a href="javascript:;">
+						<em></em>
+						<b class="span-top">回到<br />顶部</b>
+					</a>
+				</li>
+			</ul>
+		</div>		
+	</body>
+</html>

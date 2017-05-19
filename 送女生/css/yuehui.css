@@ -1,0 +1,344 @@
+/*======================================main========================================*/
+.girlbg{
+	width:1190px;
+	margin: 0 auto;
+}
+/*+++++++++++++++++++++++++++++++++++++++++++s导航+++++++++++++++++++++++++++++++++++*/
+.nav-girl{
+	margin-top: 25px;
+}
+.nav-girl h1{
+	float: left;
+	font-size: 38px;
+	width: 150px;
+	height:105px;
+	font-family: "微软雅黑";
+	line-height: 40px;
+	margin:20px 0;
+	color:#ff8777;
+	font-weight: 100;
+}
+.nav-girl h1 span{
+	font-size:18px;
+	
+}
+.daohang{
+	float:left;
+	margin-bottom: 25px;
+}
+.daohang dl{
+	margin-left:15px;
+	float: left;
+	width:155px;
+}
+.daohang dl dt{
+	font-size: 18px;
+	font-family: "微软雅黑";
+	height:40px;
+	line-height:40px;
+	font-weight:bold;
+	color:#424242;
+}
+.daohang dl dd{
+	height:30px;
+	line-height: 30px;
+	font-size:14px;
+}
+.daohang dl dd a{
+	color:#666;
+	font-family: "微软雅黑";
+}
+.daohang dl dd a img{
+	display: inline;
+	/*vertical-align: middle;*/
+}
+.fixnav{
+	clear: both;
+	background: #F4604B;
+	width:100%;
+	height:37px;
+	position: static;
+	top:0;
+	display: none;
+	z-index: 1000;
+}
+.fixnav ul{
+	float:left;
+	width:125px;
+	border: 1px solid #F4604B;
+	margin-right:70px;
+}
+.fixnav ul li{
+	padding-left:20px;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	line-height: 35px;
+	display:none;
+	cursor: pointer;
+}
+.fixnav ul li a{
+	color:#666;
+}
+.fixnav ul li img{
+	display: inline;
+}
+.fixnav ul li.title{
+	border-left:1px dotted #fff;
+	border-color: rgba(255,255,255,0.3);
+	font-weight: bold;
+	color:#fff;
+	display: block;
+}
+/*.fixnav ul li.title:hover{
+	color:#F25E4B;
+	background: #F4604B;
+}*/
+/*.fixnav ul.addbg{
+	background: #fff;
+}*/
+
+/*=================================图片部分===============================*/
+.bannerbg{
+	margin-bottom:25px ;
+	
+}
+.bg_pic{
+	width:550px;
+	height: 400px;
+	overflow: hidden;
+	margin-right: 20px;
+	float: left;
+}
+.bg_center{
+	width:370px;
+	margin-right: 20px;
+	float: left;
+}
+.bg_center img:first-child{
+	margin-bottom: 20px;
+}
+.paihang{
+	width:1200px;
+	margin:0 auto;
+}
+.public{
+	height:40px;
+	line-height:40px;
+	font-size: 24px;
+	color: #424242;
+	font-family: "微软雅黑";
+}
+.public i{
+	border-right:1px solid #978d8c;
+}
+.public span{
+	font-size:14px;
+	height:40px;
+	line-height: 40px;
+	display: inline-block;
+	padding-left:15px;
+}
+.paihang ul{
+	width:1223px;
+	margin-top: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #e1e1e1;
+	overflow: hidden;
+}
+.paihang li{
+	float:left;
+	width:280px;
+	height:330px;
+	margin-bottom: 20px;
+	margin-right:23px;
+}
+.paihang img{
+	width:100%;
+}
+.top{
+	float:left;
+	width:50px;
+	height:50px;
+	font:16px/50px "微软雅黑";
+	color:#fff;
+	background: #F4604B;
+	text-align: center;
+	
+}
+.tle{
+	height:25px;
+	overflow: hidden;
+	margin-top: 2px;
+	line-height:25px;
+	padding:0 10px;
+	font-family: "微软雅黑";
+	font-size: 14px;
+}
+.tle a{
+	color:#333;
+}
+.tle a:hover{
+	color:#f00;
+	text-decoration: underline;
+}
+.price-p{
+	float:left;
+	padding:0 10px;
+	font-family: "宋体";
+	font-size: 12px;
+	height:25px;
+	line-height: 25px;
+	color:#333;
+}
+.price-p .rm{
+	float:right;
+	margin-left:100px;
+	color:#666
+}
+.louceng{
+	width:1200px;
+	margin: 0 auto;
+}
+.louceng ul>li{
+	margin-top: 20px;
+}
+.louceng ol{
+	width:1223px;
+	margin-top: 20px;
+}
+.louceng ol li{
+	width:280px;
+	margin-right: 23px;
+	float: left;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.louceng ol li.toppic {
+	width:583px;
+	height:280px;
+	position: relative;
+	top:0;
+	left:0;
+}
+.louceng ol li.toppic img{
+	width: 100%;
+	position: absolute;
+	top:0;
+	left:0;
+}
+.louceng ol li img{
+	width:100%;
+	height:280px;
+}
+.louceng ol  .botpic{
+	width:280px;
+	height:280px;
+	position: relative;
+	overflow: hidden;
+}
+.louceng ol  .botpic img{
+	width:280px;
+	height:280px;
+	
+	position: absolute;
+	top:0;
+	left:0;
+}
+.louceng ol li h3{
+	width:280px;
+	font-family: "微软雅黑";
+	font-weight: 100;
+}
+.louceng ol li h3 p{
+	color: #333;
+	font-size:14px;
+	overflow: hidden;
+	height:30px;
+	line-height:30px;
+}
+.louceng ol li h3 span{
+	color:#F4604B;
+	font-size: 18px;
+	
+}
+.louceng ol li h3 b{
+	font-weight: 100;
+	font-size: 14px;
+}
+.louceng  h2{
+	text-align: center;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #e1e1e1;
+	font-weight: 100;
+}
+.louceng  h2 a{
+	border-right:1px solid #999;
+	color:#666;
+	font-family: "微软雅黑";
+	font-size: 18px;
+	padding: 0 10px;
+	margin:5px 0;
+}
+/*========================================活动列表=======================================*/
+.active-btm{
+	width:100%;
+	overflow: hidden;
+	padding-top:10px;
+}
+.box-btn{
+	color:#F4604B;
+	font-size: 30px;
+	font-family: "微软雅黑";
+	text-align: center;
+}
+.activeites{
+	width:1200px;
+	margin:0 auto;
+	padding-bottom:20px;
+}
+.activeites_con {
+	padding-top:18px;
+}
+.activeites_con ul{
+	width:1200px;
+	margin:10px auto;
+}
+.activeites_con li{
+	float:left;
+	margin-right: 10px;
+	margin-bottom: 15px;
+}
+.footerbo{
+	clear:both;
+	width:1210px;
+	margin:0 auto;
+	padding-top:20px;
+}
+.footerbo ul{
+	width:1260px;
+}
+.footerbo li{
+	float:left;
+	margin-right: 10px;
+}
+.footerbo a{
+	display:block;
+	height:55px;
+	width:230px;
+	border:1px solid #ccc;
+	font-size: 24px;
+	line-height:55px;
+	font-family: arial ,"微软雅黑";
+	background: #fff;
+	text-align: center;
+	margin-bottom: 12px;
+}
+.footerbo .common1{
+	font-weight: bold;
+}
+.footerbo .common2{
+	font-size:36px;
+	height:125px;
+	line-height:125px;
+	font-weight: bold;
+}

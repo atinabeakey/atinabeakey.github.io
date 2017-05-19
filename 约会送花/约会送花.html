@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>约会为她 “花”心思</title>
+		<link rel="shortcut icon" href="../common/img/bitbug_favicon.ico" />
+		<link rel="stylesheet" href="../首页/css/common.css" />
+		<link rel="stylesheet" href="../common/css/public.css" />
+		<link rel="stylesheet" type="text/css" href="css/yuehui.css" />
+		<script type="text/javascript" src="../jquery-1.11.0.js" ></script>
+		<script type="text/javascript" src="../common/js/public.js"></script>
+		<script src="js/yuehui.js"></script>
+	</head>
+	<body>
+<!--************************************************页面头部公共样式*************************************************-->
+		<div class="header">
+			<div class="container">
+				<div class="con_left">
+					<a href="javascdript:;" title="卡当网"></a>
+				</div>
+				<div class="con_top">
+					<div class="welcome">
+						<span class="sp">Hi，</span>
+							欢迎来到卡当网
+							<a id="useLogin" href="../登录页面/登录页面.html" target="_blank" title="登录">登录</a>
+							<a id="useReg" href="../注册页面/注册页面.html" target="_blank" title="注册">注册</a>
+					</div>
+					<div class="s_menu">
+						<ul class="menu_show">
+							<li class="menu_list spical">
+								<a class="a_link" href="javascript:;" title="我的卡当">我的卡当
+									<b class="transout "></b>
+								</a>
+								<div class="my_own  dropdown box">
+									<ul>
+										<li><a href="javascritp:;" title="我的订单">我的订单</a></li>
+										<li><a href="javascritp:;" title="我的优惠券">我的优惠券</a></li>
+									</ul>
+								</div>
+							</li>
+							<li class="menu_list spical ">
+								<a class="a_link" href="javascript:;" title="购物车">
+									<em class="shop"></em>
+									购物车
+									<b class=" transout"></b>
+								</a>
+								<div class="my_shop dropdown box">
+									<p>您的购物车中暂无商品，赶快选择心爱的商品吧！</p>
+								</div>
+							</li>
+							<li class="menu_list">
+								<a href="javascript:;" title="手机版">
+									<em class="phone"></em>
+									手机版
+								</a>
+								<div class="my_phone  dropdown box">
+									<img src="../common/img/img-code.jpg" />
+								</div>
+							</li>
+							<li class="menu_list spical">
+								<a class="a_link" href="javascript:;" title="我的收藏">
+									我的收藏
+									<b class=" transout"></b>
+								</a>
+								<div class="my_collect  dropdown box">
+									<ul>
+										<li><a href="javascritp:;" title="收藏的商品">收藏的商品</a></li>
+										<li><a href="javascritp:;" title="收藏的店铺">收藏的店铺</a></li>
+									</ul>
+								</div>
+							</li>
+							<li class="menu_list"><a href="javascript:;">在线客服</a></li>
+							<li class="menu_list"><a href="javascript:;">收藏卡当网</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="con_bot">
+					<img class="picbg" src="../common/img/kd.png" />
+					<div class="con_mid">
+						<div class="search">
+							<input class="text_con" type="text" value="" placeholder="七夕情人节送女朋友什么？" />
+							<input type="submit" value="" class="sea_btn"/>
+						</div>
+						<div class="search_lay">
+							<a href="javascript:;" title="送女朋友" >送女朋友</a>
+							<a href="javascript:;" title="浪漫表白"  >浪漫表白</a>
+							<a href="javascript:;" title="我的订单查询" >我的订单查询</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+<!--************************************************nav*************************************************-->
+		<div class="nav">
+			<div class="nav1">
+				<div class="nav-spic">
+					<h3>
+						<i class="menu_bg"></i>
+						送礼攻略
+					</h3>
+					
+		<!--===========================二级菜单开始===============================-->			
+					<div class="slide_nav">
+						<div class="slide_left">
+							<p>按兴趣选礼物</p>
+							<dl>
+								<dt><a href="javascript:;">礼物送给谁</a></dt>
+								<dd>
+									<a href="javascript:;">送普通朋友</a>
+									<a href="javascript:;">送心仪/暗恋对象</a>
+									<a href="javascript:;">送女朋友/老婆</a>
+									<a href="javascript:;">送男朋友/老公</a>
+									<a href="javascript:;">送情侣</a>
+								</dd>
+							</dl>
+							<dl>
+								<dt><a href="javascript:;">收礼人个性</a></dt>
+								<dd>
+									<a href="javascript:;">送普通朋友</a>
+									<a href="javascript:;">送心仪/暗恋对象</a>
+									<a href="javascript:;">送女朋友/老婆</a>
+									<a href="javascript:;">送男朋友/老公</a>
+									<a href="javascript:;">送情侣</a>
+								</dd>
+							</dl>
+							<dl>
+								<dt><a href="javascript:;">礼物价格</a></dt>
+								<dd>
+									<a href="javascript:;">送普通朋友</a>
+									<a href="javascript:;">送心仪/暗恋对象</a>
+									<a href="javascript:;">送女朋友/老婆</a>
+									<a href="javascript:;">送男朋友/老公</a>
+									<a href="javascript:;">送情侣</a>
+								</dd>
+							</dl>
+							<dl>
+								<dt><a href="javascript:;">礼物类型</a></dt>
+								<dd>
+									<a href="javascript:;">送普通朋友</a>
+									<a href="javascript:;">送心仪/暗恋对象</a>
+									<a href="javascript:;">送女朋友/老婆</a>
+									<a href="javascript:;">送男朋友/老公</a>
+									<a href="javascript:;">送情侣</a>
+								</dd>
+							</dl>
+						</div>
+						<div class="slide_right">
+							<div class="right-con">
+								<p>按类目选礼物</p>
+								<dl>
+									<dt>
+										<a href="javascript:;" title="javascript:;">时尚饰品</a>
+									</dt>
+									<dd>
+										<a href="javascript:;" title='项链' >项链</a>
+										<a href="javascript:;" title='手链手镯' >手链手镯</a>
+										<a href="javascript:;" title='戒指'>戒指</a>
+										<a href="javascript:;" title='发饰/胸针'>发饰/胸针</a>
+										<a href="javascript:;" title='耳钉耳环'>耳钉耳环</a>
+										<a href="javascript:;" title='男士饰品'>男士饰品</a> 
+										<a href="javascript:;" title='高档珠宝'>高档珠宝</a>
+									</dd>
+								</dl>
+								<dl>
+									<dt>
+										<a href="javascript:;" title='围巾配饰'>围巾配饰</a>
+									</dt>
+									<dd>
+										<a href="javascript:;" title='围巾/手套' >围巾/手套</a>
+										<a href="javascript:;" title='钱包/背包'>钱包/背包</a>
+										<a href="javascript:;" title='手表' >手表</a>
+										<a href="javascript:;" title='皮带'>皮带</a>
+										<a href="javascript:;" title='钥匙扣'>钥匙扣</a>
+										<a href="javascript:;" title='zippo/军刀'>zippo/军刀</a> 
+										<a href="javascript:;" title='梳子/化妆镜'>梳子/化妆镜</a>
+									</dd>
+								</dl>
+								<dl>
+									<dt>
+										<a href="javascript:;" title='创意摆件'>创意摆件</a>
+									</dt>
+									<dd>
+										<a href="javascript:;" title='DIY模型/拼图' >DIY模型/拼图</a>
+										<a href="javascript:;" title='水晶摆件' >水晶摆件</a>
+										<a href="javascript:;" title='装饰画/摆件'>装饰画/摆件</a>
+										<a href="javascript:;" title='蜡烛/创意灯'>蜡烛/创意灯</a>
+										<a href="javascript:;" title='音乐盒'>音乐盒</a>
+										<a href="javascript:;" title='印章'>印章</a> 
+										<a href="javascript:;" title='汽车饰品'>汽车饰品</a>
+									</dd>
+								</dl>
+								<dl>
+									<dt>
+										<a href="javascript:;" title='布艺家纺'>布艺家纺</a>
+									</dt>
+									<dd>
+										<a href="javascript:;" title='毛绒公仔'>毛绒公仔</a>
+										<a href="javascript:;" title='抱枕靠垫'>抱枕靠垫</a> 
+										<a href="javascript:;" title='居家服/情趣'>居家服/情趣</a>
+									</dd>
+								</dl>
+								<dl>
+									<dt>
+										<a class="nav_bg list5" href="javascript:;" title='花/巧克力'>花/巧克力</a>
+									</dt>
+									<dd>
+										<a href="javascript:;" title='巧克力' >巧克力</a>
+										<a href="javascript:;" title='永生花' >永生花</a>
+										<a href="javascript:;" title='金箔花'>金箔花</a>
+										<a href="javascript:;" title='酒水饮料'>酒水饮料</a>
+										<a href="javascript:;" title='卡通花/创意花束'>卡通花/创意花束</a>
+										<a href="javascript:;" title='蜡烛/气氛配件'>蜡烛/气氛配件</a> 
+									</dd>
+								</dl>
+								<dl>
+									<dt>
+										<a class="nav_bg list6" href="javascript:;" title='家居日用'>家居日用</a>
+									</dt>
+									<dd>
+										<a href="javascript:;" title='变色杯/保温杯' >变色杯/保温杯</a>							
+										<a href="javascript:;" title='遮阳伞'>遮阳伞</a>
+										<a href="javascript:;" title='创意灯' >创意灯</a>
+										<a href="javascript:;" title='情趣礼品'  >情趣礼品</a>
+										<a href="javascript:;" title='生活电器'>生活电器</a>
+										<a href="javascript:;" title='碗筷锅具'>碗筷锅具</a>
+										<a href="javascript:;" title='收纳'>收纳</a> 
+										<a href="javascript:;" title='洗漱用品'>洗漱用品</a>
+									</dd>
+								</dl>
+								<dl>
+									<dt>
+										<a class="nav_bg list7" href="javascript:;" title='数码办公'>数码办公</a>
+									</dt>
+									<dd>
+										<a href="javascript:;" title='笔记本' >笔记本</a>
+										<a href="javascript:;" title='钢笔' >钢笔</a>
+										<a href="javascript:;" title='手机壳'>手机壳</a>
+										<a href="javascript:;" title='鼠标垫'>鼠标垫</a>
+										<a href="javascript:;" title='移动电源'>移动电源</a>
+										<a href="javascript:;" title='U盘'>U盘</a> 
+										<a href="javascript:;" title='名片夹'>名片夹</a>
+									</dd>
+								</dl>
+								<dl>
+									<dt>
+										<a class="nav_bg list8" href="javascript:;" title='照片印刷'>照片印刷</a>
+									</dt>
+									<dd>
+										<a href="javascript:;" title='照片冲印' >照片冲印</a>
+										<a href="javascript:;" title='年历挂历' >年历挂历</a>
+										<a href="javascript:;" title='报纸'>报纸</a>
+										<a href="javascript:;" title='纪念册/贺卡'>纪念册/贺卡</a>
+										<a href="javascript:;" title='扑克'>扑克</a>
+									</dd>
+								</dl>
+								<dl>
+									<dt>
+										<a class="nav_bg list9" href="javascript:;" title='服装内衣'>服装内衣</a>
+									</dt>
+									<dd>
+										<a href="javascript:;" title='女士上装' >女士上装</a>
+										<a href="javascript:;" title='情侣套装' >情侣套装</a>
+										<a href="javascript:;" title='亲子套装'>亲子套装</a>
+										<a href="javascript:;" title='居家内衣'>居家内衣</a>
+									</dd>
+								</dl>
+							</div>
+						</div>
+					</div>
+		<!--===========================二级菜单结束===============================-->			
+					
+					
+				</div>
+				<ul>
+					<li>
+						<a href="javascript:;" title="首页">首页</a>
+					</li>
+					<li>
+						<a  class="navgift" href="javascript:;" title="暖心礼物">暖心礼物
+							<img  class="navhot" src="../common/img/navHot.gif" />
+						</a>
+					</li>
+					<li>
+						<a href="javascript:;" title="送女生">送女生</a>
+					</li>
+					<li>
+						<a href="javascript:;" title="送男生">送男生</a>
+					</li>
+					<li>
+						<a href="javascript:;" title="生日礼物">生日礼物</a>
+					</li>
+					<li>
+						<a href="javascript:;" title="小创意大心意">小创意大心意</a>
+					</li>
+					<li>
+						<a href="javascript:;" title="约会送花">约会送花</a>
+					</li>
+					<li class="navHover" style="width: 10px; left: 0px; display:none;"></li>
+				</ul>
+			</div>
+		</div>
+<!--************************************************banner*************************************************-->
+		<div class="banner">
+			<h1></h1>
+		</div>
+<!--************************************************banner*************************************************-->
+		<div class="main">
+			<div class="main1">
+				<div class="fixedbox">
+					<ul>
+						<li class='current'>约会为她“花”心思</li>
+						<li>约会の创意小物</li>
+						<li>给她一个“熊”抱抱</li>
+						<li>约会の必备情侣款</li>
+					</ul>
+				</div>
+				<div class="re-gift showBox" >
+					<ul>
+				
+					</ul>
+				</div>
+				<div class="re-gift">
+					<ul>
+				
+					</ul>
+				</div>
+				<div class="re-gift">
+					<ul>
+				
+					</ul>
+				</div>
+				<div class="re-gift">
+					<ul>
+				
+					</ul>
+				</div>
+			</div>
+			
+		</div>
+<!--***********************************************footer*************************************************-->		
+		<div class="footer">
+			<div class="footer1">
+				<div class="footer-left">
+					<p>按兴趣选礼物</p>
+					<dl>
+						<dt><a href="javascript:;">礼物送给谁</a></dt>
+						<dd>
+							<a href="javascript:;">送普通朋友</a>
+							<a href="javascript:;">送心仪/暗恋对象</a>
+							<a href="javascript:;">送女朋友/老婆</a>
+							<a href="javascript:;">送男朋友/老公</a>
+							<a href="javascript:;">送情侣</a>
+						</dd>
+					</dl>
+					<dl>
+						<dt><a href="javascript:;">收礼人个性</a></dt>
+						<dd>
+							<a href="javascript:;">送普通朋友</a>
+							<a href="javascript:;">送心仪/暗恋对象</a>
+							<a href="javascript:;">送女朋友/老婆</a>
+							<a href="javascript:;">送男朋友/老公</a>
+							<a href="javascript:;">送情侣</a>
+						</dd>
+					</dl>
+					<dl>
+						<dt><a href="javascript:;">礼物价格</a></dt>
+						<dd>
+							<a href="javascript:;">送普通朋友</a>
+							<a href="javascript:;">送心仪/暗恋对象</a>
+							<a href="javascript:;">送女朋友/老婆</a>
+							<a href="javascript:;">送男朋友/老公</a>
+							<a href="javascript:;">送情侣</a>
+						</dd>
+					</dl>
+					<dl>
+						<dt><a href="javascript:;">礼物类型</a></dt>
+						<dd>
+							<a href="javascript:;">送普通朋友</a>
+							<a href="javascript:;">送心仪/暗恋对象</a>
+							<a href="javascript:;">送女朋友/老婆</a>
+							<a href="javascript:;">送男朋友/老公</a>
+							<a href="javascript:;">送情侣</a>
+						</dd>
+					</dl>
+				</div>
+				<div class="footer-right">
+					<div class="footer-con">
+						<p>按类目选礼物</p>
+						<dl>
+							<dt>
+								<a href="javascript:;" title="javascript:;">时尚饰品</a>
+							</dt>
+							<dd>
+								<a href="javascript:;" title='项链' >项链</a>
+								<a href="javascript:;" title='手链手镯' >手链手镯</a>
+								<a href="javascript:;" title='戒指'>戒指</a>
+								<a href="javascript:;" title='发饰/胸针'>发饰/胸针</a>
+								<a href="javascript:;" title='耳钉耳环'>耳钉耳环</a>
+								<a href="javascript:;" title='男士饰品'>男士饰品</a> 
+								<a href="javascript:;" title='高档珠宝'>高档珠宝</a>
+							</dd>
+						</dl>
+						<dl>
+							<dt>
+								<a href="javascript:;" title='围巾配饰'>围巾配饰</a>
+							</dt>
+							<dd>
+								<a href="javascript:;" title='围巾/手套' >围巾/手套</a>
+								<a href="javascript:;" title='钱包/背包'>钱包/背包</a>
+								<a href="javascript:;" title='手表' >手表</a>
+								<a href="javascript:;" title='皮带'>皮带</a>
+								<a href="javascript:;" title='钥匙扣'>钥匙扣</a>
+								<a href="javascript:;" title='zippo/军刀'>zippo/军刀</a> 
+								<a href="javascript:;" title='梳子/化妆镜'>梳子/化妆镜</a>
+							</dd>
+						</dl>
+						<dl>
+							<dt>
+								<a href="javascript:;" title='创意摆件'>创意摆件</a>
+							</dt>
+							<dd>
+								<a href="javascript:;" title='DIY模型/拼图' >DIY模型/拼图</a>
+								<a href="javascript:;" title='水晶摆件' >水晶摆件</a>
+								<a href="javascript:;" title='装饰画/摆件'>装饰画/摆件</a>
+								<a href="javascript:;" title='蜡烛/创意灯'>蜡烛/创意灯</a>
+								<a href="javascript:;" title='音乐盒'>音乐盒</a>
+								<a href="javascript:;" title='印章'>印章</a> 
+								<a href="javascript:;" title='汽车饰品'>汽车饰品</a>
+							</dd>
+						</dl>
+						<dl>
+							<dt>
+								<a href="javascript:;" title='布艺家纺'>布艺家纺</a>
+							</dt>
+							<dd>
+								<a href="javascript:;" title='毛绒公仔'>毛绒公仔</a>
+								<a href="javascript:;" title='抱枕靠垫'>抱枕靠垫</a> 
+								<a href="javascript:;" title='居家服/情趣'>居家服/情趣</a>
+							</dd>
+						</dl>
+						<dl>
+							<dt>
+								<a class="nav_bg list5" href="javascript:;" title='花/巧克力'>花/巧克力</a>
+							</dt>
+							<dd>
+								<a href="javascript:;" title='巧克力' >巧克力</a>
+								<a href="javascript:;" title='永生花' >永生花</a>
+								<a href="javascript:;" title='金箔花'>金箔花</a>
+								<a href="javascript:;" title='酒水饮料'>酒水饮料</a>
+								<a href="javascript:;" title='卡通花/创意花束'>卡通花/创意花束</a>
+								<a href="javascript:;" title='蜡烛/气氛配件'>蜡烛/气氛配件</a> 
+							</dd>
+						</dl>
+						<dl>
+							<dt>
+								<a class="nav_bg list6" href="javascript:;" title='家居日用'>家居日用</a>
+							</dt>
+							<dd>
+								<a href="javascript:;" title='变色杯/保温杯' >变色杯/保温杯</a>							
+								<a href="javascript:;" title='遮阳伞'>遮阳伞</a>
+								<a href="javascript:;" title='创意灯' >创意灯</a>
+								<a href="javascript:;" title='情趣礼品'  >情趣礼品</a>
+								<a href="javascript:;" title='生活电器'>生活电器</a>
+								<a href="javascript:;" title='碗筷锅具'>碗筷锅具</a>
+								<a href="javascript:;" title='收纳'>收纳</a> 
+								<a href="javascript:;" title='洗漱用品'>洗漱用品</a>
+							</dd>
+						</dl>
+						<dl>
+							<dt>
+								<a class="nav_bg list7" href="javascript:;" title='数码办公'>数码办公</a>
+							</dt>
+							<dd>
+								<a href="javascript:;" title='笔记本' >笔记本</a>
+								<a href="javascript:;" title='钢笔' >钢笔</a>
+								<a href="javascript:;" title='手机壳'>手机壳</a>
+								<a href="javascript:;" title='鼠标垫'>鼠标垫</a>
+								<a href="javascript:;" title='移动电源'>移动电源</a>
+								<a href="javascript:;" title='U盘'>U盘</a> 
+								<a href="javascript:;" title='名片夹'>名片夹</a>
+							</dd>
+						</dl>
+						<dl>
+							<dt>
+								<a class="nav_bg list8" href="javascript:;" title='照片印刷'>照片印刷</a>
+							</dt>
+							<dd>
+								<a href="javascript:;" title='照片冲印' >照片冲印</a>
+								<a href="javascript:;" title='年历挂历' >年历挂历</a>
+								<a href="javascript:;" title='报纸'>报纸</a>
+								<a href="javascript:;" title='纪念册/贺卡'>纪念册/贺卡</a>
+								<a href="javascript:;" title='扑克'>扑克</a>
+							</dd>
+						</dl>
+						<dl>
+							<dt>
+								<a class="nav_bg list9" href="javascript:;" title='服装内衣'>服装内衣</a>
+							</dt>
+							<dd>
+								<a href="javascript:;" title='女士上装' >女士上装</a>
+								<a href="javascript:;" title='情侣套装' >情侣套装</a>
+								<a href="javascript:;" title='亲子套装'>亲子套装</a>
+								<a href="javascript:;" title='居家内衣'>居家内衣</a>
+							</dd>
+						</dl>
+					</div>
+				</div>
+			</div>		
+		</div>		
+<!--***********************************************活动************************************************-->	
+		<div class="active-btm">
+			<div class="height40"></div>
+			<div class="box-btn">
+				<a href="../首页/index.html">去首页看看</a>
+			</div>
+			<div class="height40"></div>
+			<div class="activeites">
+				<h3></h3>
+				<div class="activeites_con">
+					<ul>
+						<li>
+							<a href="javascript:;">
+								<img src="img/46.jpg" />
+							</a>
+						</li>
+						<li>
+							<a href="javascript:;">
+								<img src="img/50.jpg" />
+							</a>
+						</li>
+						<li>
+							<a href="javascript:;">
+								<img src="img/53.jpg" />
+							</a>
+						</li>
+						<li>
+							<a href="javascript:;">
+								<img src="img/48.jpg" />
+							</a>
+						</li>
+						<li>
+							<a href="javascript:;">
+								<img src="img/49.jpg" />
+							</a>
+						</li>
+						<li>
+							<a href="javascript:;">
+								<img src="img/73.jpg" />
+							</a>
+						</li>
+						<li>
+							<a href="javascript:;">
+								<img src="img/37.jpg" />
+							</a>
+						</li>
+						<li>
+							<a href="javascript:;">
+								<img src="img/52.jpg" />
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+<!--**************************************footerbo*****************************************************-->			
+			<div class="footerbo">
+				<ul>
+					<li>
+						<a class="common1" href="javascript:;" style="color:#090;">包邮</a>
+						<a  href="javascript:;" style="color:#333;">吃货最爱</a>
+						<a  href="javascript:;" style="color:#42d3ff;">心形礼物</a>
+					</li>
+					<li>
+						<a class="common1" href="javascript:;" style="color:#f06;">爱情信物</a>
+						<a class="common2"  href="javascript:;" style="color:#f90;">热门礼物</a>
+					</li>
+					<li>
+						<a class="common1" href="javascript:;" style="color:#333;">货到付款</a>
+						<a  href="javascript:;" style="color:#333;">好看的首饰</a>
+						<a  href="javascript:;" style="color:#333;">贵的礼物</a>
+					</li>
+					<li>
+						<a class="common1 common2" href="javascript:;" style="color:#f39;">创意&心意</a>
+						<a  href="javascript:;" style="color:#090;">生日礼物</a>
+					</li>
+					<li>
+						<a class="common1" href="javascript:;" style="color:#333;">第一次送礼物</a>
+						<a  href="javascript:;" style="color:#333;">公仔抱枕</a>
+						<a  href="javascript:;" style="color:#ff6f9a;">围巾手套</a>
+					</li>
+				</ul>
+			</div>
+			<div class="height40"></div>
+		</div>
+<!--***********************************************bottom*************************************************-->		
+		<div class="bottom">
+			<ul class="bot_list1">
+				<li>
+					<a href="javascript:;">
+						<p class="bg1"></p>
+						<h4>中国领先</h4>
+						<h5>私人订制商城</h5>
+					</a>
+				</li>
+				<li>
+					<a href="javascript:;">
+						<p class="bg2"></p>
+						<h4>100%专属定制</h4>
+						<h5>独一无二为你定制</h5>
+					</a>
+				</li>
+				<li>
+					<a href="javascript:;">
+						<p class="bg3"></p>
+						<h4>100%</h4>
+						<h5>正品保证</h5>
+					</a>
+				</li>
+				<li>
+					<a href="javascript:;">
+						<p class="bg4"></p>
+						<h4>30天</h4>
+						<h5>退货保证</h5>
+					</a>
+				</li>
+				<li>
+					<a href="javascript:;">
+						<p class="bg5"></p>
+						<h4>24小时</h4>
+						<h5>80%商品闪电发货</h5>
+					</a>
+				</li>
+				<li>
+					<a href="javascript:;">
+						<p class="bg6"></p>
+						<h4>精美包装</h4>
+						<h5>提供礼品级包装</h5>
+					</a>
+				</li>
+				<li>
+					<a href="javascript:;">
+						<p class="bg7"></p>
+						<h4>199万用户</h4>
+						<h5>口碑信赖</h5>
+					</a>
+				</li>
+				<li>
+					<a href="javascript:;">
+						<p class="bg8"></p>
+						<h4>1250城市</h4>
+						<h5>货到付款</h5>
+					</a>
+				</li>
+			</ul>
+			<div class="bot">
+				<p>
+					<a href="javascript:;">首页</a>
+					<a href="javascript:;">商品分类</a>
+					<a href="javascript:;">商家登录</a>
+					<a href="javascript:;">招聘英才</a>
+					<a href="javascript:;">联系我们</a>
+					<a href="javascript:;">关于我们</a>
+					<a href="javascript:;">买家帮助</a>
+					<a href="javascript:;">手机卡当</a>
+					<a href="javascript:;">送礼导航</a>
+				</p>
+				<h6>
+					Copyright &copy; 2006-2014 kadang.com 网上经营许可证号： 浙B2-20140435
+				</h6>
+			</div>
+		</div>
+<!--***********************************************fast-nav*************************************************-->		
+		<div class="fast_nav">
+			<ul>
+				<li>
+					<p class="fast-a fast-p ">
+						<i class="wenwo"></i>
+						<span>送礼<br />问我</span>
+					</p>
+				</li>
+				<!--<li>
+					<i class="collect-num" style="display: none"></i>
+					<a class="fast-a" id="show-coll" href="javascript:;">我的<br />收藏</a>
+					<div class="coll-cont" style="display:none">
+						<div class="txt">
+							<span class="close"></span>
+							<h6>
+								<a href="javascript:;">登录</a>
+								后，您的收藏信息将自动保存到“我的收藏夹”中哦！
+							</h6>
+						</div>
+						
+						<div class="collscroll">
+							<ul>
+								<!--<li>
+									<em></em>
+									<a href="javascript:;">
+										<img src="../首页/img/banner/img6.jpg"/>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</li>-->
+				<li>
+					<a class="fast-a" href="javascript:;">我有<br />话说</a>
+				</li>
+				<li id="hideWx">
+					<a class="fast-a" href="javascript:;">
+						<i class="weixin"></i>
+						<div class="bot-hide" style="opacity: 0;"></div>
+					</a>
+				</li>
+				<li id="fast_li" style="opacity: 0;">
+					<a href="javascript:;">
+						<em></em>
+						<b class="span-top">回到<br />顶部</b>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>

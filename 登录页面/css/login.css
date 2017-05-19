@@ -1,0 +1,187 @@
+.Loginslide{
+	/*position: fixed;
+	right:0;
+	top:0;
+	z-index: 2000;*/
+	/*overflow:visible;*/
+	font-size:12px;
+	font-family: "微软雅黑";
+	width:1010px;
+	height:590px;
+	margin:0 auto;
+	border: 1px dashed #dedede;
+}
+.doorCont{
+	width:1010px;
+	height:590px;
+	/*position: absolute;
+	top:0;*/
+	padding-top:25px;	
+}
+h1{
+	padding-left:50px;
+}
+.quick-login{
+	width:640px;
+	margin:0 auto;
+	padding: 50px;
+	/*overflow: hidden;*/
+}
+.login-close{
+	display: block;
+	width:40px;
+	height:40px;
+	position: absolute;
+	top:0;
+	left:0;
+	z-index:3000;
+	line-height: 40px;
+	cursor: pointer;
+	background:url(../img/closePop.gif) no-repeat  center center #E14835;
+}
+.other-log{
+	float: left;
+	display:inline ;
+	width:195px;
+	line-height: 1.5;
+}
+.other-log dt{
+	margin-bottom: 20px!important;
+}
+.other-log h3{
+	font-size:18px;
+	color:#333;
+	font-weight: 100;
+}
+.other-log p{
+	font-size:14px;
+	color:#999;
+}
+.other-log dd{
+	float: left;
+	margin-right:17px;
+	display: inline;
+}
+.other-log a{
+	width:44px;
+	height:25px;
+	display: block;
+	padding-top:44px ;
+	color:#333;
+	text-align: center;
+	line-height:25px;
+	float:left;	
+	background: url(../img/login.png) no-repeat;
+}
+.other-log .qq{
+	background-position: 0 -68px;
+}
+.other-log .alipay{
+	background-position: 0 -137px;
+}
+.userlogin{
+	float: left;
+	padding-left: 25px;
+	border-left: 1px solid #e8e8e8;
+	width:320px;
+}
+#login_form dl{
+	width:315px;
+	margin:0 auto;
+}
+#login_form dl dt {
+    line-height: 20px;
+    height: 20px;
+    margin: 8px 0 30px 0;
+    text-shadow: 1px 1px 0 #FFF;
+    font-size:18px;
+}
+#login_form dd{
+	position: relative;
+}
+#login_form dd span{
+	position: absolute;
+	top:13px;
+	left:34px;
+	color: #999;
+	line-height: 1;
+	z-index: 1600;
+}
+#login_form .com{
+	width:280px;
+	height: 32px;
+	line-height: 32px;
+	border:1px solid #d8d8d8;
+	border-radius: 2px;
+	padding: 1px 1px 1px 32px !important;
+	font-family: "微软雅黑";
+	position: relative;
+	z-index: 1200;
+	outline: none;
+	background: url(../img/login.png) no-repeat;
+}
+#login_form .login_username{
+	background-position: 7px -203px;
+}
+#login_form .login_pass{
+	background-position: 7px -238px;
+}
+#login_form dd p{
+	height:20px;
+	line-height: 20px;
+	margin-bottom: 10px;
+	text-align: right;
+	color:#f46e6e;
+}
+.enter_up{
+	height: 16px;
+	line-height: 16px;
+}
+.enter_up .autologin{
+	cursor: pointer;
+	color:#999;
+	padding-left:20px;
+	background: url(../img/login.png) 0 -354px no-repeat;
+}
+.enter_up .doauto{
+	padding-left:20px;
+	background-position: 0 -390px;
+}
+.enter{
+	width:100%;
+	margin:5px auto 10px;
+	overflow: hidden;
+}
+#login_submit{
+	width:100%;
+	display: inline-block;
+	background: #f66148;
+	color: #fff;
+	cursor:pointer;
+	font-weight: 600;
+	border:#F66148 solid 1px;
+	padding:0 20px;
+	font-family: "微软雅黑";
+	height:45px;
+	font-size: 18px;
+	border-radius: 2px;
+	outline: none;
+}
+.userlogin h2{
+	font-size:14px;
+	font-weight: 100;
+}
+.fr{
+	float: right;
+	color: #666;
+}
+.toregister{
+	color: #999;
+}
+h6{
+	font-weight: 100;
+	font-size: 16px;
+	color:#999;
+	text-align: center;
+	margin-top: 20px;
+}
